@@ -1,76 +1,192 @@
 [
   {
-    "id": "hci_evaluation_methods",
-    "subjectId": "hci_evaluation_methods",
-    "title": "Human-Computer Interaction: UI Evaluation Criteria and Methods",
-    "summary": "Evaluating a user interface involves assessing usability and user experience through various evaluation methods while maintaining safety and ethical standards.",
+    "id": "advanced_prototyping_and_testing",
+    "subjectId": "advanced_prototyping_and_testing",
+    "title": "Advanced Prototyping and Prototype Testing",
+    "summary": "This lesson covers digital interface prototyping, comparing low-fidelity and high-fidelity prototypes, using Figma and Adobe XD, designing interactive user flows, and conducting prototype testing and usability evaluations.",
     "sections": [
       {
-        "title": "1. Evaluation Criteria: Usability",
+        "title": "Introduction to Prototyping",
         "paragraphs": [
-          "Usability is about how easy, efficient, and effective a system is to use.",
-          "Usability Survey: Often includes questions involving the ease of use, ease of learning, fatigue, simple preference, and other questions specific to the given interface."
+          "Prototyping is the process of creating an early model or representation of a website, mobile application, or software before developing the actual product.",
+          "It allows designers to test the layout, features, navigation, and interactions before implementation."
         ],
         "list": [
-          "Quantitative: Measured through performance tasks (e.g., how many clicks, how much time it takes to complete an action).",
-          "Qualitative: Based on user opinions, feedback, and surveys (e.g., how simple or tiring the system feels)."
+          "Helps visualize the final product.",
+          "Identifies design problems early.",
+          "Allows users to provide feedback.",
+          "Improves communication between designers and developers.",
+          "Reduces development costs and unnecessary revisions."
         ]
       },
       {
-        "title": "Evaluation Criteria: User Experience (UX)",
+        "title": "Low-Fidelity Prototype",
         "paragraphs": [
-          "UX is more than usability it’s about the overall feeling, satisfaction, and emotional connection users have while interacting with the system. Covers how enjoyable, intuitive, and stress-free the app feels."
+          "A simple representation of an interface.",
+          "Example: A hand-drawn sketch of a login page."
         ],
-        "list": []
+        "list": [
+          "Basic sketches or wireframes.",
+          "Limited visual details.",
+          "Usually no advanced interactions.",
+          "Focuses on layout and structure."
+        ]
       },
       {
-        "title": "2. Evaluation Methods",
+        "title": "High-Fidelity Prototype",
+        "paragraphs": [
+          "A detailed and interactive representation of the proposed interface.",
+          "Example: A clickable mobile banking application prototype."
+        ],
+        "list": [
+          "Realistic colors and typography.",
+          "Detailed buttons and icons.",
+          "Actual images and visual elements.",
+          "Interactive navigation and transitions.",
+          "Simulates the intended user experience."
+        ]
+      },
+      {
+        "title": "Low-Fidelity vs. High-Fidelity Prototypes",
         "paragraphs": [],
         "list": [
-          "INTERVIEW / OBSERVATION: The simplest way: talk to users or watch them use the system. Helps identify problems that designers might miss.",
-          "COGNITIVE WALKTHROUGH: Users \"think aloud\" while using the system. They describe what they are doing and why. This reveals their thought process and points of confusion.",
-          "EXPERT HEURISTIC EVALUATION: Usability experts review the system using established principles called heuristics."
+          "Low-Fidelity: Simple design, basic shapes and sketches, limited interaction, faster to create, focuses on structure, used in early design stages.",
+          "High-Fidelity: Detailed design, realistic interface elements, interactive features, requires more time, focuses on appearance and behavior, used for detailed evaluation."
         ]
       },
       {
-        "title": "Nielsen's Ten General UI Heuristics",
+        "title": "What is Figma?",
+        "paragraphs": [
+          "Figma is a cloud-based design and prototyping tool used to create websites, mobile applications, and user interfaces."
+        ],
+        "list": [
+          "Interface design.",
+          "Wireframing.",
+          "Interactive prototyping.",
+          "Components and reusable elements.",
+          "Collaboration and commenting.",
+          "Design sharing."
+        ]
+      },
+      {
+        "title": "Important Features in Figma",
         "paragraphs": [],
         "list": [
-          "Visibility of system status",
-          "Match between system and the real world",
-          "User control and freedom",
-          "Consistency and standards",
-          "Error prevention",
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use",
-          "Aesthetic and minimalist design",
-          "Help users recognize, diagnose, and recover from errors",
-          "Help and documentation"
+          "Frames: Used to represent screens or pages of a design. Example: Login Screen, Home Screen, and Profile Screen.",
+          "Layers: Used to organize individual design elements. Example: Text, images, buttons, and icons.",
+          "Components: Reusable design elements that maintain consistency. Example: A navigation bar used across multiple screens.",
+          "Auto Layout: Automatically organizes and adjusts elements based on their content and spacing.",
+          "Prototyping: Connects screens and creates interactive user flows."
         ]
       },
       {
-        "title": "Measurement",
+        "title": "What is Adobe XD?",
         "paragraphs": [
-          "Collect numerical or survey-based data to measure effectiveness. Can involve time, error rates, or satisfaction scores."
-        ],
-        "list": []
-      },
-      {
-        "title": "3. Safety & Ethics",
-        "paragraphs": [
-          "Evaluations must be safe and respectful. Users should give informed consent before participating. Participants should always have the right to stop whenever they feel uncomfortable."
-        ],
-        "list": []
-      },
-      {
-        "title": "Summary",
-        "paragraphs": [
-          "Evaluating a user interface ensures that:"
+          "Adobe XD is a user experience design tool developed by Adobe for creating website and mobile application interfaces.",
+          "Adobe XD is no longer actively developed with new features and is in maintenance mode.",
+          "Figma is a practical primary choice for new classroom prototyping projects, while Adobe XD can still be discussed and used where it is available."
         ],
         "list": [
-          "The system is easy to use (usability)",
-          "The experience is positive and enjoyable (UX)",
-          "The process is safe, ethical, and user-centered"
+          "Wireframing.",
+          "Interface design.",
+          "Interactive prototyping.",
+          "Transitions and animations.",
+          "Design previews."
+        ]
+      },
+      {
+        "title": "What is Interactive Prototyping?",
+        "paragraphs": [
+          "Interactive prototyping is the process of connecting different screens and adding actions to simulate how a real application works."
+        ],
+        "list": [
+          "Clicking a button to open another screen.",
+          "Opening a navigation menu.",
+          "Switching between tabs.",
+          "Displaying a confirmation message.",
+          "Navigating from Login to Home.",
+          "Returning to the previous screen."
+        ]
+      },
+      {
+        "title": "Understanding User Flow",
+        "paragraphs": [
+          "A user flow represents the steps a user follows to complete a specific task in an application.",
+          "A good user flow should be simple, logical, and easy to follow.",
+          "A prototype does not necessarily need a working database, backend, or actual login authentication. Its primary purpose is to demonstrate the proposed interface and user interactions."
+        ],
+        "list": [
+          "Login Screen",
+          "Student Dashboard",
+          "Enrollment Page",
+          "Subject Selection",
+          "Enrollment Confirmation"
+        ]
+      },
+      {
+        "title": "What is Prototype Testing?",
+        "paragraphs": [
+          "Prototype testing is the process of evaluating a prototype by allowing users to interact with it and perform specific tasks. It helps designers determine whether the design meets user requirements before actual development."
+        ],
+        "list": [
+          "Evaluate navigation.",
+          "Check interactive elements.",
+          "Identify confusing screens.",
+          "Test task completion.",
+          "Gather user feedback.",
+          "Improve the overall design."
+        ]
+      },
+      {
+        "title": "Methods of Prototype Testing",
+        "paragraphs": [],
+        "list": [
+          "Task-Based Testing: Users perform specific tasks using the prototype.",
+          "Think-Aloud Testing: Users explain their thoughts while interacting with the prototype.",
+          "Observation: The researcher watches how users interact with the prototype.",
+          "User Interviews: Ask participants about their experience after testing.",
+          "Questionnaire or Survey: Collect ratings and suggestions about the prototype."
+        ]
+      },
+      {
+        "title": "Comprehensive Usability Evaluation",
+        "paragraphs": [
+          "A comprehensive usability evaluation examines different aspects of the prototype."
+        ],
+        "list": [
+          "Functionality: Do the buttons and interactions work as intended?",
+          "Navigation: Can users easily move between screens?",
+          "Visual Design: Is the interface organized and attractive?",
+          "Usability: Can users complete tasks without difficulty?",
+          "Accessibility: Can different users access and understand the interface?",
+          "Consistency: Are the design elements consistent across screens?",
+          "User Satisfaction: Are users satisfied with the experience?"
+        ]
+      },
+      {
+        "title": "Improving a Prototype Based on Feedback",
+        "paragraphs": [
+          "After testing, designers should improve the prototype based on user feedback.",
+          "A prototype is not the final product. It should be continuously evaluated and improved based on user feedback."
+        ],
+        "list": [
+          "User Feedback: Login button is difficult to find. -> Design Improvement: Make the button more visible.",
+          "User Feedback: Text is too small. -> Design Improvement: Increase font size.",
+          "User Feedback: Navigation is confusing. -> Design Improvement: Simplify the menu.",
+          "User Feedback: Too many steps to enroll. -> Design Improvement: Reduce unnecessary steps.",
+          "User Feedback: Users cannot identify icons. -> Design Improvement: Add text labels."
+        ]
+      },
+      {
+        "title": "Key Takeaways",
+        "paragraphs": [],
+        "list": [
+          "Prototyping allows designers to visualize and test an application before development.",
+          "Low-fidelity prototypes focus on basic structure.",
+          "High-fidelity prototypes simulate the actual interface and interactions.",
+          "Figma and Adobe XD are tools used for interface design and prototyping.",
+          "Interactive prototypes demonstrate how users navigate through an application.",
+          "Prototype testing identifies usability issues and helps improve the final design."
         ]
       }
     ]

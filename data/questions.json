@@ -1,420 +1,373 @@
 [
   {
-    "id": "hci_evaluation_methods",
-    "subjectId": "hci_evaluation_methods",
+    "id": "advanced_prototyping_and_testing",
+    "subjectId": "advanced_prototyping_and_testing",
     "questionType": "Identification, Enumeration",
     "questions": [
       {
         "type": "identification",
-        "question": "What concept refers to how easy, efficient, and effective a system is to use?",
+        "question": "What is the process of creating an early model or representation of a website, mobile application, or software before developing the actual product?",
+        "answer": "Prototyping"
+      },
+      {
+        "type": "identification",
+        "question": "What type of prototype is a simple representation of an interface that focuses on layout and structure with basic sketches or wireframes?",
+        "answer": "Low-Fidelity Prototype"
+      },
+      {
+        "type": "identification",
+        "question": "What type of prototype is a detailed and interactive representation of the proposed interface with realistic colors, typography, buttons, and navigation?",
+        "answer": "High-Fidelity Prototype"
+      },
+      {
+        "type": "identification",
+        "question": "What cloud-based design and prototyping tool is used to create websites, mobile applications, and user interfaces with collaboration and design sharing capabilities?",
+        "answer": "Figma"
+      },
+      {
+        "type": "identification",
+        "question": "What user experience design tool developed by Adobe is used for creating website and mobile application interfaces, currently in maintenance mode?",
+        "answer": "Adobe XD"
+      },
+      {
+        "type": "identification",
+        "question": "In Figma, what feature is used to represent individual screens or pages of a design?",
+        "answer": "Frames"
+      },
+      {
+        "type": "identification",
+        "question": "In Figma, what feature is used to organize individual design elements such as text, images, buttons, and icons?",
+        "answer": "Layers"
+      },
+      {
+        "type": "identification",
+        "question": "In Figma, what reusable design elements maintain consistency across multiple screens, such as a navigation bar?",
+        "answer": "Components"
+      },
+      {
+        "type": "identification",
+        "question": "What Figma feature automatically organizes and adjusts elements based on their content and spacing?",
+        "answer": "Auto Layout"
+      },
+      {
+        "type": "identification",
+        "question": "What Figma feature connects screens and creates interactive user flows?",
+        "answer": "Prototyping"
+      },
+      {
+        "type": "identification",
+        "question": "What is the process of connecting different screens and adding actions to simulate how a real application works?",
+        "answer": "Interactive Prototyping"
+      },
+      {
+        "type": "identification",
+        "question": "What represents the steps a user follows to complete a specific task in an application?",
+        "answer": "User Flow"
+      },
+      {
+        "type": "identification",
+        "question": "What is the process of evaluating a prototype by allowing users to interact with it and perform specific tasks?",
+        "answer": "Prototype Testing"
+      },
+      {
+        "type": "identification",
+        "question": "Which method of prototype testing involves users performing specific tasks using the prototype?",
+        "answer": "Task-Based Testing"
+      },
+      {
+        "type": "identification",
+        "question": "Which method of prototype testing requires users to explain their thoughts while interacting with the prototype?",
+        "answer": "Think-Aloud Testing"
+      },
+      {
+        "type": "identification",
+        "question": "Which method of prototype testing involves a researcher watching how users interact with the prototype?",
+        "answer": "Observation"
+      },
+      {
+        "type": "identification",
+        "question": "Which prototype testing method involves asking participants about their experience after completing tests?",
+        "answer": "User Interviews"
+      },
+      {
+        "type": "identification",
+        "question": "Which prototype testing method involves collecting ratings and suggestions from participants using written questions?",
+        "answer": "Questionnaire or Survey"
+      },
+      {
+        "type": "identification",
+        "question": "Which usability evaluation criterion asks, 'Do the buttons and interactions work as intended?'",
+        "answer": "Functionality"
+      },
+      {
+        "type": "identification",
+        "question": "Which usability evaluation criterion asks, 'Can users easily move between screens?'",
+        "answer": "Navigation"
+      },
+      {
+        "type": "identification",
+        "question": "Which usability evaluation criterion asks, 'Is the interface organized and attractive?'",
+        "answer": "Visual Design"
+      },
+      {
+        "type": "identification",
+        "question": "Which usability evaluation criterion asks, 'Can users complete tasks without difficulty?'",
         "answer": "Usability"
       },
       {
         "type": "identification",
-        "question": "What type of usability measurement is determined through performance tasks such as counting clicks or timing an action?",
-        "answer": "Quantitative"
+        "question": "Which usability evaluation criterion asks, 'Can different users access and understand the interface?'",
+        "answer": "Accessibility"
       },
       {
         "type": "identification",
-        "question": "What type of usability measurement is based on user opinions, feedback, and surveys regarding how simple or tiring a system feels?",
-        "answer": "Qualitative"
+        "question": "Which usability evaluation criterion asks, 'Are the design elements consistent across screens?'",
+        "answer": "Consistency"
       },
       {
         "type": "identification",
-        "question": "What evaluation tool often includes questions involving ease of use, ease of learning, fatigue, and simple preference?",
-        "answer": "Usability Survey"
-      },
-      {
-        "type": "identification",
-        "question": "What concept refers to the overall feeling, satisfaction, and emotional connection users have while interacting with a system?",
-        "answer": "User Experience (UX)"
-      },
-      {
-        "type": "identification",
-        "question": "What is the simplest evaluation method that involves talking to users or watching them use the system?",
-        "answer": "Interview / Observation"
-      },
-      {
-        "type": "identification",
-        "question": "What evaluation method involves users thinking aloud while using the system to describe what they are doing and why?",
-        "answer": "Cognitive Walkthrough"
-      },
-      {
-        "type": "identification",
-        "question": "What evaluation method involves usability experts reviewing a system using established principles?",
-        "answer": "Expert Heuristic Evaluation"
-      },
-      {
-        "type": "identification",
-        "question": "What term is used for the established principles used by usability experts during an evaluation?",
-        "answer": "Heuristics"
-      },
-      {
-        "type": "identification",
-        "question": "Whose ten General UI heuristics are highlighted as standard principles for expert heuristic evaluation?",
-        "answer": "Nielsen"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic states that the system should keep users informed about what is going on through appropriate feedback?",
-        "answer": "Visibility of system status"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic emphasizes speaking the users' language with words, phrases, and concepts familiar to the user rather than system-oriented terms?",
-        "answer": "Match between system and the real world"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic provides users with freedom and an easy way to exit unwanted system states?",
-        "answer": "User control and freedom"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic states that users should not have to wonder whether different words, situations, or actions mean the same thing?",
-        "answer": "Consistency and standards"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic focuses on eliminating error-prone conditions or warning users before they commit to an action?",
-        "answer": "Error prevention"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic minimizes the user's memory load by making objects, actions, and options visible rather than forcing memory retrieval?",
-        "answer": "Recognition rather than recall"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic allows shortcuts for expert users to speed up interactions while still accommodating inexperienced users?",
-        "answer": "Flexibility and efficiency of use"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic specifies that dialogues should not contain information that is irrelevant or rarely needed?",
-        "answer": "Aesthetic and minimalist design"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic ensures error messages are expressed in plain language, indicate the problem, and suggest a constructive solution?",
-        "answer": "Help users recognize, diagnose, and recover from errors"
-      },
-      {
-        "type": "identification",
-        "question": "Which UI heuristic provides information and documentation to help users complete their tasks when needed?",
-        "answer": "Help and documentation"
-      },
-      {
-        "type": "identification",
-        "question": "What evaluation step involves collecting numerical or survey-based data to measure interface effectiveness?",
-        "answer": "Measurement"
-      },
-      {
-        "type": "identification",
-        "question": "What authorization must participants give before participating in a user interface evaluation?",
-        "answer": "Informed consent"
-      },
-      {
-        "type": "identification",
-        "question": "What fundamental right must participants always retain whenever they feel uncomfortable during an evaluation?",
-        "answer": "Right to stop"
-      },
-      {
-        "type": "identification",
-        "question": "In quantitative usability, what metric measures the duration required to complete an action?",
-        "answer": "Time"
-      },
-      {
-        "type": "identification",
-        "question": "In quantitative usability, what metric measures the number of user inputs required to complete an action?",
-        "answer": "Number of clicks"
-      },
-      {
-        "type": "identification",
-        "question": "What specific user insights are revealed by a cognitive walkthrough during task performance?",
-        "answer": "Thought process and points of confusion"
-      },
-      {
-        "type": "identification",
-        "question": "What primary benefit does interview/observation offer that designers might otherwise experience?",
-        "answer": "Helps identify problems that designers might miss"
-      },
-      {
-        "type": "identification",
-        "question": "Besides satisfaction and overall feeling, what emotional aspect is part of User Experience (UX)?",
-        "answer": "Emotional connection"
-      },
-      {
-        "type": "identification",
-        "question": "What type of UI evaluation data involves satisfaction scores, error rates, or task completion time?",
-        "answer": "Measurement data"
-      },
-      {
-        "type": "identification",
-        "question": "Ethical UI evaluation guidelines state that evaluations must be both safe and what?",
-        "answer": "Respectful"
+        "question": "Which usability evaluation criterion asks, 'Are users satisfied with the experience?'",
+        "answer": "User Satisfaction"
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the three attributes used to define usability in Chapter 5.",
+        "question": "Enumerate the 5 reasons why prototyping is important.",
         "answers": [
-          "Easy to use",
-          "Efficient to use",
-          "Effective to use"
+          "Helps visualize the final product",
+          "Identifies design problems early",
+          "Allows users to provide feedback",
+          "Improves communication between designers and developers",
+          "Reduces development costs and unnecessary revisions"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two classifications of usability measurements.",
+        "question": "Enumerate the 4 main characteristics of a low-fidelity prototype.",
         "answers": [
-          "Quantitative",
-          "Qualitative"
+          "Basic sketches or wireframes",
+          "Limited visual details",
+          "Usually no advanced interactions",
+          "Focuses on layout and structure"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two performance task metrics used for quantitative usability measurement.",
+        "question": "Enumerate the 5 main characteristics of a high-fidelity prototype.",
         "answers": [
-          "How many clicks",
-          "How much time it takes to complete an action"
+          "Realistic colors and typography",
+          "Detailed buttons and icons",
+          "Actual images and visual elements",
+          "Interactive navigation and transitions",
+          "Simulates the intended user experience"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three sources of qualitative usability data.",
+        "question": "Enumerate the 6 main features of Figma.",
         "answers": [
-          "User opinions",
-          "Feedback",
-          "Surveys"
+          "Interface design",
+          "Wireframing",
+          "Interactive prototyping",
+          "Components and reusable elements",
+          "Collaboration and commenting",
+          "Design sharing"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate four common topics addressed in a Usability Survey.",
+        "question": "Enumerate the 5 important features in Figma.",
         "answers": [
-          "Ease of use",
-          "Ease of learning",
-          "Fatigue",
-          "Simple preference"
+          "Frames",
+          "Layers",
+          "Components",
+          "Auto Layout",
+          "Prototyping"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three aspects of interaction covered by User Experience (UX).",
+        "question": "Enumerate the 5 features of Adobe XD.",
         "answers": [
-          "Enjoyable",
-          "Intuitive",
-          "Stress-free"
+          "Wireframing",
+          "Interface design",
+          "Interactive prototyping",
+          "Transitions and animations",
+          "Design previews"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the three UI evaluation methods discussed in the material.",
+        "question": "Enumerate 6 examples of interactions in interactive prototyping.",
         "answers": [
-          "Interview / Observation",
-          "Cognitive Walkthrough",
-          "Expert Heuristic Evaluation"
+          "Clicking a button to open another screen",
+          "Opening a navigation menu",
+          "Switching between tabs",
+          "Displaying a confirmation message",
+          "Navigating from Login to Home",
+          "Returning to the previous screen"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two ways to conduct an interview/observation evaluation.",
+        "question": "Enumerate the 5 screens/steps in the Online Student Enrollment System user flow example.",
         "answers": [
-          "Talk to users",
-          "Watch users use the system"
+          "Login Screen",
+          "Student Dashboard",
+          "Enrollment Page",
+          "Subject Selection",
+          "Enrollment Confirmation"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two things users explain while performing a cognitive walkthrough.",
+        "question": "Enumerate the 3 qualities of a good user flow.",
         "answers": [
-          "What they are doing",
-          "Why they are doing it"
+          "Simple",
+          "Logical",
+          "Easy to follow"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two key insights revealed through a cognitive walkthrough.",
+        "question": "Enumerate the 6 objectives of prototype testing.",
         "answers": [
-          "User thought process",
-          "Points of confusion"
+          "Evaluate navigation",
+          "Check interactive elements",
+          "Identify confusing screens",
+          "Test task completion",
+          "Gather user feedback",
+          "Improve the overall design"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the first five of Nielsen's ten General UI heuristics.",
+        "question": "Enumerate the 5 methods of prototype testing.",
         "answers": [
-          "Visibility of system status",
-          "Match between system and the real world",
-          "User control and freedom",
-          "Consistency and standards",
-          "Error prevention"
+          "Task-Based Testing",
+          "Think-Aloud Testing",
+          "Observation",
+          "User Interviews",
+          "Questionnaire or Survey"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the remaining five (6 to 10) of Nielsen's ten General UI heuristics.",
+        "question": "Enumerate the 7 criteria for a comprehensive usability evaluation.",
         "answers": [
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use",
-          "Aesthetic and minimalist design",
-          "Help users recognize, diagnose, and recover from errors",
-          "Help and documentation"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate all ten of Nielsen's General UI heuristics.",
-        "answers": [
-          "Visibility of system status",
-          "Match between system and the real world",
-          "User control and freedom",
-          "Consistency and standards",
-          "Error prevention",
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use",
-          "Aesthetic and minimalist design",
-          "Help users recognize, diagnose, and recover from errors",
-          "Help and documentation"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate three types of data collected during the measurement stage of evaluation.",
-        "answers": [
-          "Time",
-          "Error rates",
-          "Satisfaction scores"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two safety and ethical guidelines for participant evaluations.",
-        "answers": [
-          "Users should give informed consent before participating",
-          "Participants should always have the right to stop whenever they feel uncomfortable"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate the three key outcomes ensured by evaluating a user interface as listed in the summary.",
-        "answers": [
-          "The system is easy to use (usability)",
-          "The experience is positive and enjoyable (UX)",
-          "The process is safe, ethical, and user-centered"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two qualitative perceptions users may have about a system's interface.",
-        "answers": [
-          "How simple the system feels",
-          "How tiring the system feels"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two forms of data collected to measure effectiveness in UI evaluation.",
-        "answers": [
-          "Numerical data",
-          "Survey-based data"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate the two core criteria used to evaluate user interfaces.",
-        "answers": [
+          "Functionality",
+          "Navigation",
+          "Visual Design",
           "Usability",
-          "User Experience (UX)"
+          "Accessibility",
+          "Consistency",
+          "User Satisfaction"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three key qualities of user experience beyond basic functionality.",
+        "question": "Enumerate the 2 main types of prototypes based on visual detail and interactivity.",
         "answers": [
-          "Overall feeling",
-          "Satisfaction",
-          "Emotional connection"
+          "Low-Fidelity Prototype",
+          "High-Fidelity Prototype"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two specific qualitative feedback descriptors mentioned for UX.",
+        "question": "Enumerate 3 characteristics that differentiate low-fidelity prototypes from high-fidelity prototypes.",
         "answers": [
-          "Intuitive",
-          "Stress-free"
+          "Simple design",
+          "Basic shapes and sketches",
+          "Limited interaction"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two principles of ethical participant treatment during interface testing.",
+        "question": "Enumerate 3 characteristics that differentiate high-fidelity prototypes from low-fidelity prototypes.",
         "answers": [
-          "Informed consent",
-          "Right to stop"
+          "Detailed design",
+          "Realistic interface elements",
+          "Interactive features"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two characteristics of expert heuristic evaluation.",
+        "question": "Enumerate the design improvement for the user feedback: 'Login button is difficult to find.'",
         "answers": [
-          "Conducted by usability experts",
-          "Uses established principles called heuristics"
+          "Make the button more visible"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two reasons why interview/observation is beneficial.",
+        "question": "Enumerate the design improvement for the user feedback: 'Text is too small.'",
         "answers": [
-          "It is the simplest evaluation method",
-          "Helps identify problems that designers might miss"
+          "Increase font size"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two requirements for evaluation safety and ethics.",
+        "question": "Enumerate the design improvement for the user feedback: 'Navigation is confusing.'",
         "answers": [
-          "Safe",
-          "Respectful"
+          "Simplify the menu"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two task performance dimensions measured quantitatively.",
+        "question": "Enumerate the design improvement for the user feedback: 'Too many steps to enroll.'",
         "answers": [
-          "Clicks",
-          "Time"
+          "Reduce unnecessary steps"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two main pillars of Nielsen's heuristics that address errors.",
+        "question": "Enumerate the design improvement for the user feedback: 'Users cannot identify icons.'",
         "answers": [
-          "Error prevention",
-          "Help users recognize, diagnose, and recover from errors"
+          "Add text labels"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two heuristics that deal with system language and system state visibility.",
+        "question": "Enumerate 3 technical backend components that a prototype does not necessarily need.",
         "answers": [
-          "Visibility of system status",
-          "Match between system and the real world"
+          "Working database",
+          "Backend",
+          "Actual login authentication"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two heuristics that address system design aesthetics and documentation.",
+        "question": "Enumerate 4 individual design elements that can be organized using Layers in Figma.",
         "answers": [
-          "Aesthetic and minimalist design",
-          "Help and documentation"
+          "Text",
+          "Images",
+          "Buttons",
+          "Icons"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two heuristics that focus on user memory and user flexibility.",
+        "question": "Enumerate the 3 example screens represented by Frames in Figma.",
         "answers": [
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use"
+          "Login Screen",
+          "Home Screen",
+          "Profile Screen"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate 2 popular software tools used for user interface design and prototyping.",
+        "answers": [
+          "Figma",
+          "Adobe XD"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate 4 design improvements made to a prototype based on user feedback examples.",
+        "answers": [
+          "Make the button more visible",
+          "Increase font size",
+          "Simplify the menu",
+          "Reduce unnecessary steps"
         ]
       }
     ]
